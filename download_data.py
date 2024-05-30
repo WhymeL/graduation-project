@@ -10,7 +10,7 @@ from financetoolkit import Toolkit
 companies = Toolkit(
     # JD, ACGBY, HCSG, AAPL
     tickers=['JD', 'ACGBY', 'HCSG', 'AAPL'],
-    api_key='Ywxs8CGJt7nWmke7VjRD3MJXyqost7yJ'
+    api_key='xxxxxxxxxxxxxx'
 )
 historical_data = companies.get_historical_data()
 historical_data.to_excel("historical_data.xlsx")
